@@ -1,6 +1,6 @@
 <?php
 function generateHabits($descricao) {
-    $apiKey = "AIzaSyA8GvLhXyDxjv-zeBknJjLVFbOMaMflBWs"; 
+    $apiKey = "suakey"; 
     $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=$apiKey";
 
     $data = [
